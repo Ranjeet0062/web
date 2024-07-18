@@ -1,0 +1,23 @@
+.submenur{
+    position: absolute;
+    width: 100%;
+    max-height: 900px;
+    width: 144px;
+    top:100%;
+    left:-100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 1s;
+    background-color: white;
+   
+    color: black;
+    box-shadow: 0px 0px 25px -6px grey;
+    padding: 5px;
+}
+
+.top div :hover .submenur {
+    /* background-color: red; */
+    opacity: 1;
+    visibility: visible;
+     left: 0%;
+ }

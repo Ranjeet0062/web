@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" style="width: 100vw; height: 50vh;">
+        <form action="" id="myform">
+            <label for="color">enter color</label>
+            <input type="text" id="color" >
+            <button onclick="onchangecolor(event)">submit</button>
+        </form>
+    </div>
+    <div class="container" style="width: 100vw; height: 100vh;">
+        <form action="" id="myform">
+            <label for="color">enter color</label>
+            <input type="number" id="color2" oninput="alertmessage(event)" >
+            <button onclick="onchangecolor(event)">submit</button>
+        </form>
+    </div>
+    <script>
+        function onchangecolor(e) {
+            e.preventDefault();
+            let color = document.getElementById("color").value;
+            console.log(color);
+            document.querySelector("#color").style.backgroundColor = color;
+        }
+        function alertmessage(e) {
+            // e.preventDefault();
+            let color = document.getElementById("color2").value;
+            if(color.length<10){
+                document.querySelector("#color2").style.backgroundColor = "red";
+            }else{
+                alert("enter successfully");
+            }
+        }
+    </script>
+</body>
+</html>

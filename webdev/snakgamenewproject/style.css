@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+
+}
+.playbord{
+    background-color: black;
+    width: 600px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(20,1fr);
+    grid-template-rows: repeat(20,1fr);
+}
+
+.food{
+    background-color: red;
+}
+.snak{
+    background-color: blue;
+}

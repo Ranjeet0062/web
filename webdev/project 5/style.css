@@ -1,0 +1,96 @@
+.f1{
+    width: 30%;
+    height: 200px;
+    background-color: #8e3e09;
+    /* margin-left: px; */
+    border: 3px solid black;
+    border-radius: 7px;
+}
+.f2{
+    width: 33%;
+    height: 200px;
+    background-color: #218e09;
+    margin-left: 7px;
+    border: 3px solid black;
+    border-radius: 7px;
+}
+.f3{
+    width: 33%;
+    height: 200px;
+    background-color: #5b098e;
+    margin-left:7px;
+    border: 3px solid black;
+    border-radius: 7px;
+}
+.f111{
+    width: 32%;
+    height: 30px;
+    background-color: #bcbdabac;
+    margin-left: 5px;
+    border: 5px solid black;
+    border-radius: 7px;
+}
+.f112{
+    width: 24%;
+    height: 30px;
+    background-color: #bcbdabac;
+    margin-left: 5px;
+    border: 5px solid black;
+    border-radius: 7px;
+}
+.f113{
+    width: 19%;
+    height: 30px;
+    background-color: #bcbdabac;
+    margin-left: 5px;
+    border: 5px solid black;
+    border-radius: 7px;
+}
+.f11{
+    display: flex;
+    margin-top: 50px;
+   
+}
+.f12{
+    display: flex;
+    margin-top: 5px;
+   
+}
+.f13{
+    display: flex;
+    margin-top: 5px;
+   
+}
+
+
+.f4{
+    width: 24%;
+    height: 30px;
+    background-color: #bcbdabac;
+    border: 5px solid black;
+    border-radius: 7px;
+    margin-left: 1px;
+
+}
+.f5{
+    width: 19%;
+    height: 30px;
+    background-color: #bcbdabac;
+    border: 5px solid black;
+    border-radius: 7px;
+    margin-left: 1px;
+
+}
+.first{
+    display: flex;
+    margin-left: 4px;
+}
+.second{
+    display: flex;
+    margin-left: 2px;
+}
+.third{
+  
+    display: flex;
+    margin-left: 1px;
+}

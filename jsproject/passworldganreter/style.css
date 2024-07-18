@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wraper{
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+    border: 2px solid #ffffff84;
+}
+.inputcantener{
+    display: flex;
+    flex-direction: column;
+}
+.passworddisplay{
+    background-color: transparent;
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 8px;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    outline: none;
+}
+.ganaretbutton{
+    padding: 8px;
+    background-color: blue;
+    color: white;
+    font-weight: 700;
+    border: 2px solid black;
+}
+.inputcantener{
+    font-size: 25px;
+    font-weight: 600;
+}
+.passworddisplaydiv{
+    display: flex;
+    border: 3px solid black;
+}
+.checboxes{
+    display: flex;
+    justify-content: space-between;
+}
+.copyMessage{
+    display: flex;
+    justify-content: unset;
+    align-items: center;
+    margin-right: 10px;
+    visibility: hidden;
+}
+.strenth{
+    color: azure;
+    display: flex;
+    justify-content: space-between;
+}
+.strenthcolor{
+    width: 20px;
+    height: 20px;
+    /* background-color: aqua; */
+    box-shadow: 0 0 4px 2px yellow;
+    border-radius: 50%;
+}
+.active{
+    visibility: visible;
+}

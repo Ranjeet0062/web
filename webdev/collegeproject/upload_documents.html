@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload Documents</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Upload Documents</h2>
+        <form action="upload_documents.php" method="post" enctype="multipart/form-data">
+            <label for="transcript">Transcript (PDF):</label>
+            <input type="file" id="transcript" name="transcript" accept=".pdf" required><br>
+
+            <label for="photo">Passport Photo:</label>
+            <input type="file" id="photo" name="photo" accept="image/*" required><br>
+
+            <!-- Add more document fields as needed -->
+
+            <button type="submit">Upload Documents</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+.gradient_home{
+	background: rgb(74,36,99);
+	background: linear-gradient(157deg, rgba(74,36,99,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+.gradient_text{
+	background: #CFCF38;
+	background: linear-gradient(to right, #CFCF38 0%, #F1FF73 50%, #EDF099 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}

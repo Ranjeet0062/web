@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+    <div class="wraper">
+        <div class="caitener">
+            <h1>Passwordganreter</h1>
+            <div class="passworddisplaydiv">
+            <input type="text" readonly class="passworddisplay">
+            <p class="copyMessage"></p>
+            <img src="download.png" alt="" width="30px" height="40px" >
+            </div>
+            <div class="inputcantener">
+                <div class="passswordlengthdiv" style="display: flex; justify-content: space-between;">
+                <p>passswordlength</p>
+                <div class="passswordlength"></div>
+            </div>
+                <input type="range" name="" id="passwordrange" min="0" max="20">
+
+                <div class="checboxes">
+                <label for="uppercasee">Uppercase letter</label>
+                <input type="checkbox" name="" id="uppercasee">
+                </div>
+                <div class="checboxes">
+                <label for="lowercasee">lowercasee letter</label>
+                <input type="checkbox" name="" id="lowercasee">
+                </div>
+                <div class="checboxes">
+                <label for="number">number letter</label>
+                <input type="checkbox" name="" id="number">
+                </div>
+                <div class="checboxes">
+                <label for="symbol">symbol letter</label>
+                <input type="checkbox" name="" id="symbol">
+                </div>
+                <div class="strenth">
+                    <p>passwordstrenth</p>
+                    <div class="strenthcolor"></div>
+                </div>
+                <button class="ganaretbutton">genaret</button>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="app.js"></script>
+</body>
+</html>

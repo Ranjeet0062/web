@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: aliceblue;
+}
+.wraper{
+    display: flex;
+    flex-direction: column;
+    gap: 6.5rem;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.cantainer{
+    position: relative;
+    width:200px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s linear;
+    animation: ranjeet 5s linear 0.2s infinite ;
+    z-index: 1;
+
+}
+.cantainer img{
+    width: 170px;
+    height: 270px;
+
+   }
+ 
+   @keyframes ranjeet{
+    0%{
+        filter: grayscale(1);
+        transform: scale(1);
+  
+    }
+    50%{
+        filter: grayscale(0);
+        transform: scale(1.2);
+        box-shadow: 3px 3px 10px black;
+    }
+    100%{
+        filter: grayscale(1);
+        transform: scale(1);
+      
+
+    }
+   }
+   .btn{
+    position: relative;
+    padding: 0.7rem 2.3rem;
+    border: 4px solid rgb(229, 13, 13) ;
+    background-color: rgb(250, 243, 243);
+    color: rgb(12, 3, 3);
+    z-index: 1;
+   
+   }
+   .btn::before{
+    content: "";
+    background-color: rgb(229, 13, 13);
+    position: absolute;
+    top:0;
+    left: 0;
+    right:0;
+    bottom: 0;
+     transform: scale(1);
+ 
+    transition: all 1s;
+    z-index: -1;
+   }
+   .btn:hover::before{
+    transform: scale(0);
+    transform-origin:RIGHT  TOP;
+   }
+  

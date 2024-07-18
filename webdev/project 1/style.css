@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #7e807bd5;
+}
+.contener{
+    margin-left: 160px;
+    background-color: #5c838f9e;
+    height: 100%;
+    width: 70%;
+    border: 9px solid black;
+}
+.content{
+    max-width: 900px;
+    margin:0 auto;
+}
+.top_section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.top_section h1{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(42, 3, 66);
+}
+.top_section h3{
+    text-align: end;
+   font-size: 20px;
+}
+.About{
+    margin: 50px;
+    overflow: hidden;
+}
+.About h1{
+font-size:50px ;
+font-weight: 500;
+margin-bottom:10px ;
+}
+.About p{
+    font-size: 20px;
+    /* padding: 10px; */
+    line-height: 25px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+
+}
+.boigrafy{
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.boigrafy h2{
+    margin-bottom: 10px;
+}
+.boigrafy ul{
+    margin-left: 25px;
+}
+.boigrafy li{
+    margin-bottom: 7px;
+    font-weight: 500;
+}
+.image{
+    border-radius: 65%;
+    overflow: hidden;
+}
+.image,img{
+    width: 290px;
+    height: 300px;
+    /* margin: 70px 70px; */
+}
+footer{
+    margin: 50px;
+}
+footer p{
+    text-align: end;
+}
+
+

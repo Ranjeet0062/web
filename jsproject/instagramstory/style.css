@@ -1,0 +1,73 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+    body{
+    background-color: aqua;
+    width: 100vw;
+    height: 100vh;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.screen{
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    position: relative;
+}
+.storybox{
+        width: 100%;
+        height: 90px;
+     
+        display: flex;
+        gap: 2px;
+        padding: 4px;
+        overflow-x: auto;
+        overflow-y: hidden;
+}
+.story{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 3px solid black;
+    
+}
+.box1{
+    background: url(IMG/IMG20210301125200.jpg);
+    background-position: center;
+    object-fit: cover;
+    background-size: cover; 
+}
+.box2{
+    background: url(IMG/IMG20210302123144.jpg);
+    background-position: top;
+    background-size: cover; 
+}
+.box3{
+    background: url(IMG/IMG20210402161450.jpg);
+    background-position: center;
+    object-fit: cover;
+    background-size: cover; 
+}
+.box4{
+    background: url(IMG/IMG20210404115418.jpg);
+    background-position: center;
+    object-fit: cover;
+    background-size: cover; 
+}
+.storyplay{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+    display:none;
+    transition: all linear .5s;
+}
